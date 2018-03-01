@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main {
+	border: 4 solid black;
+	border-radius: 50px;
+	align-content: center;
+	padding-top: 30px;
+	padding-right: 250px;
+	padding-left: 250px;
+	padding-bottom: 250px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+button:hover{
+	background-color:#2DA2F7;
+}
+#record li {
+	list-style-type: none;
+}
+#record li {
+	font-size: 20px;
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Stopwatch Demo</title>
+	<link rel="stylesheet" href="stopwatchDemo.css">
+	
+</head>
+
+<body>
+	<div class="main">
+		<script src="stopwatchDemo.js"></script>
+		<h1> Stopwatch Demo </h1>
+		<p id="start"> 0 </p>
+		<div id="button">
+			<button id="timer" onClick="startTimer()">Start/Stop</button>
+			<button id="reset" onClick="reset()">Reset</button>
+			<button id="recorder" onClick="asyncrecord()">Record Time</button>
+		</div>
+
+		<h3>Past Times</h3>
+		<ul id="record">
+		</ul>
+	
+	</div>
+</body>
+</html>
