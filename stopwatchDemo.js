@@ -57,7 +57,5 @@ function asyncrecord(){
 		recorder.appendChild(list, function(){
 			document.getElementsByTagName("li").innerHTML = recorded;
 		});
-//		
-		//document.getElementById("record").innerHTML = recorded;
 	},100);
 }
